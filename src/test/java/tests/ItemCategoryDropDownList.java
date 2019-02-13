@@ -1,0 +1,27 @@
+package tests;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class ItemCategoryDropDownList {
+
+	public List<String> getItemCategoryDropDownList() {
+
+		List<String> allItemsForItemCategoryDropDown = new ArrayList<String>();
+		allItemsForItemCategoryDropDown.addAll(Arrays.asList("All Departments", "Alexa Skills", "Amazon Devices", "Amazon Fresh",
+				"Amazon Warehouse", "Appliances", "Apps & Games", "Arts, Crafts & Sewing",
+				"Automotive Parts & Accessories", "Baby", "Beauty & Personal Care", "Books", "CDs & Vinyl",
+				"Cell Phones & Accessories", "Clothing, Shoes & Jewelry", "   Women", "   Men", "   Girls", "   Boys",
+				"   Baby", "Collectibles & Fine Art", "Computers", "Courses", "Credit and Payment Cards",
+				"Digital Music", "Electronics", "Garden & Outdoor", "Gift Cards", "Grocery & Gourmet Food", "Handmade",
+				"Health, Household & Baby Care", "Home & Business Services", "Home & Kitchen",
+				"Industrial & Scientific", "Just for Prime", "Kindle Store", "Luggage & Travel Gear", "Luxury Beauty",
+				"Magazine Subscriptions", "Movies & TV", "Musical Instruments", "Office Products", "Pet Supplies",
+				"Prime Pantry", "Prime Video", "Software", "Sports & Outdoors", "Tools & Home Improvement",
+				"Toys & Games", "Vehicles", "Video Games"));
+
+		return allItemsForItemCategoryDropDown;
+	}
+
+}
